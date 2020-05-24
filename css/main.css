@@ -1,0 +1,127 @@
+.list {
+  list-style: none;
+}
+/* Основной текст #757575*/
+/* Цвет заголовков #212121*/
+/* Дополнительный голубой #2196f3*/
+/* белый цвет текста #ffffff*/
+/* Главный цвет фона #E5E5E5*/
+/* Вторичный цвет фона #f5f4fa*/
+/* цвет фона чем мы занимаемся rgba(47, 48, 58, 0.8); */
+/* Цвет фона футера #2f303a*/
+
+/* Hero */
+.hero-title {
+  color: var(--title-text-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.06em;
+}
+.hero .button {
+  letter-spacing: 0.06em;
+  text-decoration: none;
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/* Features */
+.feature-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+}
+.feature-list .text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+/*Work*/
+.work-list .title {
+  color: var(--additional-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+
+  text-transform: uppercase;
+}
+/* Team */
+.section.team {
+  background-color: var(--additional-grey-color);
+}
+.team-list .title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team-list p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.network .net-link {
+}
+.network .net-link:hover,
+.network .net-link:focus {
+  background-color: var(--accent-color);
+}
+/* Button */
+.button {
+  color: var(--additional-text-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+}
+
+/* PORTFOLIO PAGE */
+/* Hero */
+.button-list .buttons {
+  color: var(--title-text-color);
+  background-color: var(--additional-grey-color);
+  font-family: inherit;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+.button-list .buttons:hover,
+.button-list .buttons:focus {
+  color: var(--additional-text-color);
+  background-color: var(--accent-color);
+}
+.project-list a {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.project-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+}
+.project-list .text {
+  font-size: 16px;
+  line-height: 1.87;
+}
