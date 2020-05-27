@@ -14,16 +14,20 @@ body {
   letter-spacing: 0.03em;
 }
 /* Шапка сайта */
-.logo {
-  color: var(--accent-color);
-  font-family: Raleway;
+.logo-link {
+  color: var(--title-text-color);
   text-decoration: none;
+  font-family: Raleway;
+
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
-.logo:hover {
-  color: var(--title-text-color);
+.logo {
+  color: var(--accent-color);
+}
+.logo-link:hover {
+  color: var(--accent-color);
 }
 
 /* Site nav */
@@ -46,6 +50,10 @@ body {
 .site-contact .mail {
   color: var(--primary-text-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+
   letter-spacing: 0.02em;
 }
 .site-contact .mail:hover,
@@ -55,33 +63,37 @@ body {
 .site-contact .telephone {
   color: var(--primary-text-color);
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-contact .telephone:hover,
 .site-contact .telephone:focus {
   color: var(--accent-color);
 }
 /* Footer */
+.logo-link.footer {
+  color: var(--additional-text-color);
 
+  font-size: 22px;
+  line-height: 1.18;
+}
+.logo-link.footer:hover {
+  color: var(--accent-color);
+}
 .footer-link {
   color: var(--footer-text-color);
   text-decoration: none;
 }
-.logo.footer {
-  font-size: 22px;
-  line-height: 1.18;
-  text-decoration: none;
-}
+
 .contact {
   color: var(--additional-text-color);
   font-size: 14px;
-  line-height: 1.17;
-}
-.contact .footer-link {
-  color: var(--footer-text-color);
+  line-height: 1.71;
+  font-style: normal;
 }
 
-.network .net-link {
-}
 .network .net-link:hover,
 .network .net-link:focus {
   background-color: var(--accent-color);

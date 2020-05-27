@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Sudio v.1</title>
+    <title>Web Studio v.1</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -16,7 +16,9 @@
     <!-- Шапка сайта -->
     <header>
       <nav>
-        <a href="./index.html" class="logo">Web Studio</a>
+        <a href="./index.html" class="logo-link">
+          <span class="logo">Web</span> <span>Studio</span>
+        </a>
         <ul class="site-nav list">
           <li><a href="./index.html" class="link current">Студия</a></li>
           <li><a href="./potfolio.html" class="link">Портфолио</a></li>
@@ -246,14 +248,16 @@
     </section>
     <!-- Футер -->
     <footer>
-      <h2 class="logo footer">Web Studio</h2>
-      <div class="contact">
-        <address>
-          г. Киев, пр-т Леси Украинки, 26 <br />
-          <a href="" class="footer-link">info@example.com</a> <br />
-          <a href="" class="footer-link">+38 099 111 11 11</a>
-        </address>
-      </div>
+      <a href="./index.html" class="logo-link footer">
+        <span class="logo">Web</span> <span>Studio</span>
+      </a>
+
+      <address class="contact">
+        г. Киев, пр-т Леси Украинки, 26<br />
+        <a href="" class="footer-link">info@example.com</a> <br />
+        <a href="" class="footer-link">+38 099 111 11 11</a>
+      </address>
+
       <div class="invite-title">
         <b>присоединяйтесь</b>
         <ul class="network list">
@@ -279,10 +283,10 @@
           </li>
         </ul>
       </div>
-      <div>
-        <b>Подпишитесь на рассылку</b>
-        <a href="" class="button">Подписаться</a>
-      </div>
+
+      <b>Подпишитесь на рассылку</b>
+      <a href="" class="button">Подписаться</a>
+
       <p class="copyright">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
