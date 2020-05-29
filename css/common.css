@@ -3,9 +3,11 @@
   --title-text-color: #212121;
   --additional-text-color: #ffffff;
   --accent-color: #2196f3;
-  --primary-white-color: #e5e5e5;
-  --additional-grey-color: #f5f4fa;
+  --primary-white-color: #f5f4fa;
+  --additional-grey-color: #e5e5e5;
   --footer-text-color: rgba(255, 255, 255, 0.6);
+  --footer-grey-color: #2f303a;
+  --hero-grey-color: rgba(47, 48, 58, 0.8);
 }
 body {
   color: var(--primary-text-color);
@@ -73,6 +75,9 @@ body {
   color: var(--accent-color);
 }
 /* Footer */
+.footer-container {
+  background-color: var(--footer-grey-color);
+}
 .logo-link.footer {
   color: var(--additional-text-color);
 
@@ -105,6 +110,17 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
 }
+.footer-button {
+  color: var(--additional-text-color);
+  background-color: var(--accent-color);
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.87;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
 .copyright {
   font-size: 12px;
   line-height: 2;

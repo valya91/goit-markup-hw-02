@@ -11,6 +11,9 @@
 /* Цвет фона футера #2f303a*/
 
 /* Hero */
+.hero {
+  background-color: var(--hero-grey-color);
+}
 .hero-title {
   color: var(--title-text-color);
 
@@ -76,8 +79,6 @@
   line-height: 1.19;
 }
 
-.network .net-link {
-}
 .network .net-link:hover,
 .network .net-link:focus {
   background-color: var(--accent-color);
